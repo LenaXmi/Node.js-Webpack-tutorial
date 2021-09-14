@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "NPM basics",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "build": "babel src -d dist",
+      "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LenaXmi/Node.js-Webpack-tutorial.git"
+  },
+  "author": "Lena Semeshyna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LenaXmi/Node.js-Webpack-tutorial/issues"
+  },
+  "homepage": "https://github.com/LenaXmi/Node.js-Webpack-tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "parcel-bundler": "^1.12.5"
+  }
+}
